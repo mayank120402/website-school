@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Photo gallery of Greenfield International School - campus life, events, activities, and achievements captured through images.">
+    <meta name="keywords" content="school gallery, photo gallery, school events, campus photos, Greenfield International School">
+    <title>Gallery | Greenfield International School</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="images/logo.png" type="image/png">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Greenfield International School Logo">
+                <div class="logo-text">
+                    <h1>Greenfield International School</h1>
+                    <p>Affiliated to CBSE | Est. 1995</p>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="academics.html">Academics</a></li>
+                    <li><a href="admission.html">Admission</a></li>
+                    <li><a href="facilities.html">Facilities</a></li>
+                    <li><a href="students.html">Students</a></li>
+                    <li><a href="gallery.html" class="active">Gallery</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page-header" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/banner1.jpg');">
+        <div class="container">
+            <h2>Photo Gallery</h2>
+            <p>Capturing memorable moments from our vibrant school community</p>
+        </div>
+    </section>
+
+    <section class="gallery-categories">
+        <div class="container">
+            <div class="category-buttons">
+                <button class="category-btn active" data-category="all">All</button>
+                <button class="category-btn" data-category="events">Events</button>
+                <button class="category-btn" data-category="academics">Academics</button>
+                <button class="category-btn" data-category="sports">Sports</button>
+                <button class="category-btn" data-category="arts">Arts</button>
+                <button class="category-btn" data-category="campus">Campus</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="photo-gallery">
+        <div class="container">
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="events">
+                    <img src="images/gallery/img1.jpg"  alt="Annual Day Performance">
+                    <div class="gallery-overlay">
+                        <h3>Annual Day 2023</h3>
+                        <p>Students performing at our cultural extravaganza</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="academics">
+                    <img src="images/gallery/img2.jpg" alt="Science Fair">
+                    <div class="gallery-overlay">
+                        <h3>Science Exhibition</h3>
+                        <p>Innovative projects by our young scientists</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="sports">
+                    <img src="images/gallery/img3.jpg" alt="Sports Day">
+                    <div class="gallery-overlay">
+                        <h3>Sports Day 2023</h3>
+                        <p>Track events at our annual athletics meet</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="arts">
+                    <img src="images/gallery/img4.jpg" alt="Art Exhibition">
+                    <div class="gallery-overlay">
+                        <h3>Art Exhibition</h3>
+                        <p>Showcasing student creativity</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="campus">
+                    <img src="images/gallery/img5.jpg" alt="School Building">
+                    <div class="gallery-overlay">
+                        <h3>Our Campus</h3>
+                        <p>Main academic block</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="events">
+                    <img src="images/gallery/img6.jpg" alt="Graduation">
+                    <div class="gallery-overlay">
+                        <h3>Graduation Day</h3>
+                        <p>Class 12 students receiving diplomas</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="academics">
+                    <img src="images/gallery/img7.jpg" alt="Classroom">
+                    <div class="gallery-overlay">
+                        <h3>Interactive Learning</h3>
+                        <p>Students engaged in classroom discussion</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="sports">
+                    <img src="images/gallery/img8.jpg" alt="Basketball">
+                    <div class="gallery-overlay">
+                        <h3>Basketball Tournament</h3>
+                        <p>Inter-school championship finals</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="arts">
+                    <img src="images/gallery/img9.jpg" alt="Music">
+                    <div class="gallery-overlay">
+                        <h3>Music Recital</h3>
+                        <p>Annual instrumental performance</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="campus">
+                    <img src="images/gallery/img10.jpg" alt="Library">
+                    <div class="gallery-overlay">
+                        <h3>Library</h3>
+                        <p>Students in our learning resource center</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="events">
+                    <img src="images/gallery/img11.jpg" alt="Republic Day">
+                    <div class="gallery-overlay">
+                        <h3>Republic Day</h3>
+                        <p>Flag hoisting ceremony</p>
+                    </div>
+                </div>
+                <div class="gallery-item" data-category="academics">
+                    <img src="images/gallery/img12.jpg" alt="Lab">
+                    <div class="gallery-overlay">
+                        <h3>Chemistry Lab</h3>
+                        <p>Students conducting experiments</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="video-gallery">
+        <div class="container">
+            <h2>Video Gallery</h2>
+            <div class="video-grid">
+                <div class="video-item">
+                    <div class="video-thumbnail">
+                        <img src="images/video1.jpg" alt="Annual Day Video">
+                        <div class="play-button"><i class="fas fa-play"></i></div>
+                    </div>
+                    <h3>Annual Day Highlights 2023</h3>
+                </div>
+                <div class="video-item">
+                    <div class="video-thumbnail">
+                        <img src="images/video2.jpg" alt="Sports Day Video">
+                        <div class="play-button"><i class="fas fa-play"></i></div>
+                    </div>
+                    <h3>Sports Day 2023</h3>
+                </div>
+                <div class="video-item">
+                    <div class="video-thumbnail">
+                        <img src="images/video3.jpg" alt="School Tour Video">
+                        <div class="play-button"><i class="fas fa-play"></i></div>
+                    </div>
+                    <h3>Virtual Campus Tour</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery-cta">
+        <div class="container">
+            <h2>Want to See More?</h2>
+            <p>Follow us on social media for daily updates and photos from school life.</p>
+            <div class="social-links">
+                <a href="#" class="social-btn"><i class="fab fa-facebook-f"></i> </a>
+                <a href="#" class="social-btn"><i class="fab fa-instagram"></i> </a>
+                <a href="#" class="social-btn"><i class="fab fa-youtube"></i> </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/logo.png" alt="Greenfield International School Logo">
+                    <p>Greenfield International School<br>Affiliated to CBSE | Est. 1995</p>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Greenfield International School. All Rights Reserved.</p>
+                <div class="footer-links">
+                    <a href="privacy.html">Privacy Policy</a> | 
+                    <a href="terms.html">Terms of Use</a> | 
+                    <a href="sitemap.html">Sitemap</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="lightbox">
+        <div class="lightbox-content">
+            <span class="close-btn">&times;</span>
+            <img src="" alt="" class="lightbox-img">
+            <div class="lightbox-caption"></div>
+            <div class="lightbox-nav">
+                <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
